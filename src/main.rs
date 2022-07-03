@@ -98,11 +98,48 @@ fn main() {
     let (mut canvas, mut event_pump) = init();
 
     let mut board = [[false;MAX_Y];MAX_X];
-    board[0+5][1+5] = true;
-    board[1+5][2+5] = true;
-    board[2+5][0+5] = true;
-    board[2+5][1+5] = true;
-    board[2+5][2+5] = true;
+    
+    board[13][12] = true;
+    board[13][13] = true;
+    board[14][12] = true;
+    board[14][13] = true;
+    board[23][12] = true;
+    board[23][13] = true;
+    board[23][14] = true;
+    board[24][11] = true;
+    board[24][15] = true;
+    board[25][10] = true;
+    board[25][16] = true;
+    board[26][10] = true;
+    board[26][16] = true;
+    board[27][13] = true;
+    board[28][11] = true;
+    board[28][15] = true;
+    board[29][12] = true;
+    board[29][13] = true;
+    board[29][14] = true;
+    board[30][13] = true;
+    board[33][10] = true;
+    board[33][11] = true;
+    board[33][12] = true;
+    board[34][10] = true;
+    board[34][11] = true;
+    board[34][12] = true;
+    board[35][9] = true;
+    board[35][13] = true;
+    board[37][8] = true;
+    board[37][9] = true;
+    board[37][13] = true;
+    board[37][14] = true;
+    board[47][10] = true;
+    board[47][11] = true;
+    board[48][10] = true;
+    board[48][11] = true;
+    // board[0+5][1+5] = true;
+    // board[1+5][2+5] = true;
+    // board[2+5][0+5] = true;
+    // board[2+5][1+5] = true;
+    // board[2+5][2+5] = true;
 
     let mut play = true;
 
